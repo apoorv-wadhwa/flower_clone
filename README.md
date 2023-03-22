@@ -1,4 +1,4 @@
-# store
+# Flower-store
 
 A new Flutter project.
 
