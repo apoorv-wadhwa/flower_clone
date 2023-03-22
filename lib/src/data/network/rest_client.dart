@@ -1,0 +1,1 @@
+import 'package:retrofit/retrofit.dart';import 'package:flutter/foundation.dart';import 'package:dio/dio.dart';part 'rest_client.g.dart';@RestApi(baseUrl: '')abstract class RestClient {    factory RestClient(Dio dio,{@required String baseUrl}) = _RestClient;}
